@@ -159,3 +159,74 @@ footer {
     background-color: #2c3e50;
     color: white;
 }
+/* Progreso */
+.progress-section {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.progress-item {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.progress-item p {
+    margin: 0;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.progress {
+    background-color: #3498db;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+td a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #2980b9;
+}
